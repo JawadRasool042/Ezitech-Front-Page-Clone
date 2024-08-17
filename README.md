@@ -21,3 +21,5 @@ This repository contains a clone of the front page of EziTech.org, a project aim
 1. **Clone the repository:** 
    ```bash
    git clone https://github.com/jawadrasool042/ezitech-org-clone.git
+   ```
+2. **Open index.html in your preferred web browser to view the front page.**
