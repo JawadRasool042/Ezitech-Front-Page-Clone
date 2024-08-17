@@ -13,8 +13,7 @@ This repository contains a clone of the front page of EziTech.org, a project aim
 
 - HTML5
 - CSS3
-- JavaScript (if applicable)
-- Any other tools or frameworks you used (e.g., Bootstrap, jQuery)
+- JavaScript
 
 ## How to Use
 
