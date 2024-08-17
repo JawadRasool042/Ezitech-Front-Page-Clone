@@ -1,0 +1,786 @@
+nav {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 15px;
+  align-items: center;
+  margin: 0 auto;
+  color: white;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(bg-image.jpg);
+  background-repeat: no-repeat;
+  background-position-x: -180px;
+  background-position-y: 12px;
+  background-size: 125% auto;
+  height: auto;
+  width: auto;
+}
+
+.line {
+  position: absolute;
+  top: 18.3%;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  background-color: white;
+  z-index: 1;
+  opacity: 20%;
+}
+
+.logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: -2px -47px -30px 81px;
+  width: 178px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.bar svg {
+  width: 19px;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  color: white;
+}
+
+.bar ul {
+  display: flex;
+  gap: 28px;
+  margin: 6px 210px -20px 88px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+.header1 ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 100px;
+  color: white;
+}
+
+.header1 {
+  background-color: rgb(37, 114, 208);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin: -8px -8px 0px -8px;
+  font-size: 13px;
+  color: white;
+}
+
+svg {
+  margin: 2px -2px -2px 0px;
+}
+
+.img3 {
+  float: right;
+  padding: 23px 264px 0px 0px;
+  margin: 0;
+  display: flex;
+  border: none;
+}
+
+.line1 {
+  width: 500px;
+  padding-bottom: 30px;
+  font-size: 50px;
+  width: 1027px;
+  margin-top: 130px;
+  font-weight: 650;
+  color: white;
+}
+
+.read {
+  padding-top: 10px;
+  color: white;
+}
+
+.download {
+  padding: 13px 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 550;
+  background-color: #00b6d1;
+  color: white;
+  border: 2px;
+  border-radius: 7px;
+  display: inline-block;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+}
+
+.buy {
+  padding: 12px 20px;
+  text-align: center;
+  font-size: 20px;
+  width: 175px;
+  background-color: transparent;
+  font-weight: 550;
+  border: solid 2px white;
+  color: white;
+  border-radius: 7px;
+  margin-left: 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  transition-timing-function: ease-in-out;
+}
+
+.home {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.home:hover {
+  color: rgb(43, 166, 190);
+}
+
+.about {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.about:hover {
+  color: rgb(43, 166, 190);
+}
+
+li .certi {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.certi:hover {
+  color: rgb(43, 166, 190);
+}
+
+.career {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.career:hover {
+  color: rgb(43, 166, 190);
+}
+
+.semi {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.semi:hover {
+  color: rgb(43, 166, 190);
+}
+
+.tech {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.tech:hover {
+  color: rgb(43, 166, 190);
+}
+
+.iportal {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.iportal:hover {
+  color: rgb(43, 166, 190);
+}
+
+.search {
+  position: relative;
+  overflow: hidden;
+  border: 3px solid white;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+  z-index: 0;
+}
+
+.search::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 90, 180);
+  transition: left 0.2s ease-in-out;
+  z-index: -1;
+}
+
+.search:hover::before {
+  left: 0;
+  border: none;
+}
+
+.search:hover {
+  color: #fff;
+  border-color: rgb(0, 90, 180);
+}
+
+.heart {
+  position: relative;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.heart::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 220%;
+  height: 150%;
+  background-color: rgb(27, 198, 127);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  z-index: -1;
+}
+
+.heart:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.heart2 {
+  margin-left: 22%;
+  margin-top: -26px;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.utilize {
+  display: flex;
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  font-family: "Montserrat";
+  font-size: 24px;
+  margin-top: 10px;
+  color: white;
+}
+
+.searchdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  width: 485px;
+  height: 35px;
+  border-radius: 7px;
+  padding: 30px 25px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+  color: #333;
+  text-align: left;
+  margin-top: 35px;
+  border: none;
+}
+
+.search2 {
+  position: absolute;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.search2:hover {
+  color: rgb(0, 0, 0);
+}
+
+.buy:hover {
+  background-color: rgb(72, 74, 74);
+}
+
+.download:hover {
+  background-color: #53def4;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  justify-items: center;
+  margin-left: 67px;
+  margin-top: -30px;
+}
+
+.imgprod1 {
+  height: 50px;
+  width: auto;
+  cursor: pointer;
+}
+
+.imgprod2 {
+  height: 35px;
+  width: auto;
+  margin-top: -4px;
+  cursor: pointer;
+}
+
+.imgprod3 {
+  height: 146px;
+  width: auto;
+  margin-top: -20px;
+  margin-left: -29px;
+  cursor: pointer;
+}
+
+.how {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: 700;
+  color: rgb(35, 42, 53);
+  margin-top: 150px;
+}
+
+.howimages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.imghow1 {
+  height: 170px;
+  width: auto;
+}
+
+.multi {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.second {
+  /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+  max-width: 78vw;
+  margin: auto;
+}
+
+.grid-container {
+  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 40px;
+  padding: 5px;
+  justify-content: center;
+  height: 90vh;
+  width: fit-content;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.grid-item {
+  background-color: #ffffff;
+  border-radius: 25px;
+  overflow: hidden;
+  transition: 0.3s ease;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 4px 4px 8px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.grid-item img {
+  width: 50%;
+  height: auto;
+  margin: 16px 16px 16px 16px;
+}
+
+.grid-item p {
+  margin: 16px 16px 16px 16px;
+  color: rgb(35, 42, 53);
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.grid-item:hover {
+  transform: translateY(-15px);
+}
+
+.limited {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: 700;
+  color: rgb(35, 42, 53);
+  margin-top: -40px;
+}
+
+.grid {
+  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 5px;
+  justify-content: center;
+  width: fit-content;
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: "Montserrat";
+}
+
+.item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.3s ease;
+  padding: 0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  width: 330px;
+  height: 280px;
+  padding-bottom: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item:hover {
+  transform: scale(1.03);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.item-all {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  background-image: url(gridsbg.jpg);
+  background-position-y: -267px;
+  background-size: cover;
+  color: white;
+  width: 100%;
+  padding: 35px 30px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  text-align: start;
+  position: relative;
+}
+
+.emp {
+  margin-left: 30px;
+  margin-top: 30px;
+  line-height: 2;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.icon {
+  width: 15px;
+  fill: #1c50ab;
+  margin-right: 10px;
+}
+
+.item-all::after {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 1px;
+  background-color: #ffffff;
+  position: absolute;
+  margin-top: 60px;
+  left: 0;
+  margin-left: 28px;
+}
+
+.item-all img {
+  width: 60px;
+  margin-left: 50px;
+}
+
+.item p {
+  margin: 5px 0;
+}
+
+.readmore {
+  padding: 8px 20px;
+  color: white;
+  font-weight: 300;
+  border: none;
+  background-color: #326ec9;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 13px;
+  display: inline-block;
+  align-content: center;
+  align-items: center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 34%;
+}
+
+.readmore:hover {
+  background-color: #13158c;
+}
+
+@media screen and (max-width: 1100px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: red;
+  }
+}
+
+.note {
+  color: black;
+  font-family: "Montserrat";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  margin: 15px 0px 45px 0px;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-bottom: 12%;
+}
+
+.card {
+  width: 550px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  background-color: white;
+  height: 400px;
+
+  left: 13%;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  height: auto;
+}
+
+.card-header {
+  background-color: #4247d6;
+  color: white;
+  padding: 25px;
+  font-size: 18px;
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.3;
+  font-size: 20px;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .arrow {
+  opacity: 1;
+}
+
+.card-content {
+  padding: 10px;
+  color: #333;
+  height: 100px;
+
+  overflow: hidden;
+  display: block;
+
+  transition: height 0.5s ease;
+}
+
+.card:hover .card-content {
+  height: auto;
+}
+
+.price-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: rgb(0, 0, 0);
+}
+
+.new-price {
+  color: black;
+  font-weight: bold;
+}
+
+.perfect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat";
+  font-size: 27px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  padding-bottom: 50px;
+  font-weight: 800;
+}
+
+.hand {
+  display: flex;
+  margin: 90px 0px 0px 300px;
+}
+
+.learning {
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: 700;
+  color: rgb(35, 42, 53);
+  margin-top: 90px;
+  padding-right: 290px;
+  text-align-last: left;
+  margin-left: 70px;
+}
+
+.anytime {
+  color: #1984e8;
+}
+
+.hand img {
+  width: 450px;
+  transform: scale(0.98);
+}
+
+.learning p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.appstore img {
+  width: 30%;
+  cursor: pointer;
+}
+
+.playstore img {
+  width: 30%;
+  cursor: pointer;
+}
+
+.laptop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #001c71;
+  background-image: url(laptopbg.jpg);
+  background-position: right;
+  background-size: cover;
+  background-position-y: -158px;
+}
+
+.time {
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+  width: 600px;
+  position: relative;
+  z-index: 2;
+}
+
+.start {
+  color: #7799fe;
+}
+
+.laptopimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #001c71;
+  background-image: url(laptopbg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.footer {
+  background-color: #001c71;
+  color: white;
+  padding: 20px 0;
+  font-family: "Montserrat", sans-serif;
+  width: 100vw;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  width: 22%;
+  line-height: 1.6;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer-section p {
+  font-size: 14px;
+  color: white;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+}
