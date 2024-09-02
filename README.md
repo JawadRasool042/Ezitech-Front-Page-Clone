@@ -4,7 +4,6 @@ This repository contains a clone of the front page of EziTech.org, a project aim
 
 ## Features
 
-- **Responsive Layout:** Optimized for desktops, tablets, and mobile devices.
 - **Modern Design:** Recreated the look and feel of the EziTech.org homepage using clean, modern HTML and CSS.
 - **Interactive Elements:** Includes hover effects, navigation, and other interactive components similar to the original site.
 - **Cross-Browser Compatibility:** Tested across multiple browsers for consistent performance.
