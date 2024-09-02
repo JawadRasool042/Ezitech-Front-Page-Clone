@@ -1,4 +1,4 @@
-# EziTech.org Front Page Clone
+# Ezitech.org Front Page Clone
 
 This repository contains a clone of the front page of EziTech.org, a project aimed at replicating the design and functionality of the original website's homepage. The clone is built with a focus on responsive design, ensuring compatibility across various devices and screen sizes.
 
